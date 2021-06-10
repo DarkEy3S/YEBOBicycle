@@ -165,12 +165,6 @@ body {
   overflow-x: hidden;
 }
 
-.vintage {
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-}
-
 .vintage__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -179,14 +173,14 @@ body {
 
 .vintage__left {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 75%;
-          flex: 1 1 75%;
+      -ms-flex: 1 1 60%;
+          flex: 1 1 60%;
 }
 
 .vintage__right {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 25%;
-          flex: 1 1 25%;
+      -ms-flex: 1 1 40%;
+          flex: 1 1 40%;
 }
 
 .boriosa {
@@ -203,8 +197,8 @@ body {
 
 .boriosa__left {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 25%;
-          flex: 1 1 25%;
+      -ms-flex: 1 1 40%;
+          flex: 1 1 40%;
 }
 
 .boriosa__right {
@@ -212,8 +206,8 @@ body {
       -ms-flex-order: 2;
           order: 2;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 75%;
-          flex: 1 1 75%;
+      -ms-flex: 1 1 60%;
+          flex: 1 1 60%;
 }
 
 .retro {
